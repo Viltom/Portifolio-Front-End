@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caderno de Receitas</title>
+  <!-- Bibliotecas do Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* Estilo para a imagem da receita */
+    .receita img {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <h1>Caderno de Receitas</h1>
+
+    <!-- Receita 1 -->
+    <div id="receita1" class="receita">
+      <h2>Receita de Lasanha</h2>
+      <img src="imgs/Lasanha.jpg" alt="Imagem da Receita 1">
+      <ul>
+        <h4>Ingredientes</h4>
+        <li>500 gr de massa de lasanha</li>
+        <li>300 gr de carne moída</li>
+        <li>1 colher (sobremesa) de óleo de girassol</li>
+        <li>1 unidade de cebola picada</li>
+        <li>2 dentes de alho</li>
+        <li>1 pitada de sal</li>
+        <li>2 envelopes de molho de tomate</li>
+        <li>250 gr de presunto magro</li>
+        <li>250 gr de mussarela</li>
+        <li>1 pacote de queijo ralado</li>
+      </ul>
+      <ol>
+        <h4>Preparo</h4>
+        <li>Cozinhe massa al dente, após cozido passe um pouco de óleo para que não grude (reserve). Existem massas que não precisam de cozimento.</li>
+        <li>Para o molho, refogue o alho, a cebola, a carne moída, depois acrescente o molho de tomate, deixe cozinhar por 5 minutos, reserve.</li>
+        <li>Em uma forma coloque no fundo um pouco de molho, uma camada de massa, uma camada de presunto, uma camada de mussarela e repita a sequência até que os ingredientes acabem.</li>
+        <li>Cubra com queijo ralado e leve ao forno por 30 minutos à 180º C ou até dourar bem.</li>
+      </ol>
+    </div>
+
+    <!-- Receita 2 -->
+    <div id="receita2" class="receita">
+      <h2>Receita de File Mignon</h2>
+      <img src="imgs/Carne.jpg" alt="Imagem da Receita 2">
+      <ul>
+        <h4>Ingredientes</h4>
+        <li>1 peça de filé mignon (sem gordura)</li>
+        <li>1 colher de sopa de mostarda em pó</li>
+        <li>2 colheres de sopa de alho triturado</li>
+        <li>1 colher de chá de sal</li>
+      </ul>
+      <ol>
+        <h4>Preparo</h4>
+        <li>Reúna todos os ingredientes;</li>
+        <li>Tempere o filé com sal, mostarda, o alho e esfregue bem, para a carne pegar bem o tempero;</li>
+        <li>Embrulhe a carne no papel alumínio, disponha em uma assadeira e leve ao forno preaquecido a 180 ºC por cerca de 30 minutos;</li>
+        <li>Retire do forno, desembrulhe o filé e volte ao forno por mais 10 minutos;</li>
+        <li>Agora é só servir.</li>
+      </ol>
+    </div>
+
+    <!-- Receita 3 -->
+    <div id="receita3" class="receita">
+      <h2>Receita de Macarrão</h2>
+      <img src="imgs/Macarrão.webp" alt="Imagem da Receita 3">
+      <ul>
+        <h4>Ingredientes</h4>
+        <li>500 gr de massa de lasanha</li>
+        <li>300 gr de carne moída</li>
+        <li>1 colher (sobremesa) de óleo de girassol</li>
+        <li>1 unidade de cebola picada</li>
+        <li>2 dentes de alho</li>
+        <li>2 envelopes de molho de tomate</li>
+        <li>250 gr de presunto magro</li>
+        <li>250 gr de mussarela</li>
+        <li>1 pacote de queijo ralado</li>
+      </ul>
+      <ol>
+        <h4>Preparo</h4>
+        <li>Cozinhe massa al dente, após cozido passe um pouco de óleo para que não grude (reserve). Existem massas que não precisam de cozimento.</li>
+        <li>Para o molho, refogue o alho, a cebola, a carne moída, depois acrescente o molho de tomate, deixe cozinhar por 5 minutos, reserve.</li>
+        <li>Em uma forma coloque no fundo um pouco de molho, uma camada de massa, uma camada de presunto, uma camada de mussarela e repita a sequência até que os ingredientes acabem.</li>
+        <li>Cubra com queijo ralado e leve ao forno por 30 minutos à 180º C ou até dourar bem.</li>
+      </ol>
+    </div>
+
+    <!-- Paginação -->
+    <div class="pagination">
+      <button id="pagina1" class="btn btn-primary active">1</button>
+      <button id="pagina2" class="btn btn-primary">2</button>
+      <button id="pagina3" class="btn btn-primary">3</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
